@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+/* main styling */
+body, html{
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.7rem;
+}
+a{
+  color: rgb(17, 0, 255);
+  text-decoration: none;
+}
+h1, h2, h3{
+  padding-bottom: 20px;
+}
+#navbar{
+  background: #50C878;
+  overflow: auto;
+}
+#navbar a{
+color: #FFD700;
+}
+#navbar h1{
+  float: left;
+  padding-top: 20px;
+}
+#navbar ul{
+  float: right;
+  list-style: none;
+}
+#navbar ul li{
+  float: right;
+  list-style: none;
+}
+#navbar ul li a{
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
